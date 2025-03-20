@@ -20,6 +20,12 @@ if ds3231.alarm1_status:
 	print("wake up!")
 	ds3231.alarm1_status = False
 
+print('Alarm set. Check the SQW pin voltage')
+
+time.sleep(30)
+
+print('Alarm triggered. Check the SQW pin voltage')
+
 #time.sleep(4)
 """
 
